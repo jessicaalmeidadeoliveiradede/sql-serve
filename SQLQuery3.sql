@@ -1,0 +1,13 @@
+create table professor(
+id bigint not null,
+nome_professor varchar not null,
+turma int not null,
+primary key(id)
+);
+create table materia (
+id_materia bigint,
+nome_materia varchar,
+nome_professor varchar,
+primary key(id_materia)
+
+);
